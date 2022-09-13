@@ -73,9 +73,9 @@
     <TextView
         android:id="@+id/textView_final"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:text="@string/result_final"
-        android:textSize="30dp"
+        android:textSize="40dp"
         android:gravity="center"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
@@ -95,6 +95,7 @@
             android:layout_height="match_parent"
             android:hint="@string/my_hint"
             android:textSize="30dp"
+            android:imeOptions="actionDone"
             app:layout_constraintBottom_toBottomOf="parent"></EditText>
 
         <Button

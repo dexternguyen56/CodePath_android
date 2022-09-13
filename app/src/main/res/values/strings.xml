@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Wordle</string>
-    <string name="guess_1">g1</string>
-    <string name="guess_2">g2</string>
-    <string name="guess_3">g3</string>
-    <string name="result_1">r1</string>
-    <string name="result_2">r2</string>
-    <string name="result_3">r3</string>
+    <string name="guess_1">Guess #1</string>
+    <string name="guess_2">Guess #2</string>
+    <string name="guess_3">Guess #3</string>
+    <string name="result_1">Guess #1 Check</string>
+    <string name="result_2">Guess #2 Check</string>
+    <string name="result_3">Guess #3 Check</string>
     <string name="result_final">final</string>
     <string name="my_hint">Enter 4 letters</string>
 </resources>
