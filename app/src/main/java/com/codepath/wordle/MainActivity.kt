@@ -40,12 +40,12 @@ class MainActivity : AppCompatActivity() {
         val res_2 = findViewById<TextView>(R.id.textView_result_2)
         val res_3 = findViewById<TextView>(R.id.textView_result_3)
         val res_final = findViewById<TextView>(R.id.textView_final)
-        var check = false
         var spaceLong = "                          "
         var spaceShort = "              "
 
         wordToGuess = FourLetterWordList.getRandomFourLetterWord()
         res_final.setText(wordToGuess)
+        println(wordToGuess)
 
 
 
@@ -72,7 +72,7 @@ class MainActivity : AppCompatActivity() {
                 count += 3
             }
 
-            if (checkString == inputString){
+            if (wordToGuess.equals(inputString )){
                 Toast.makeText(this, "Correct", Toast.LENGTH_SHORT).show()
                 arr[6].visibility = View.VISIBLE
                 guessButton.isEnabled=false
